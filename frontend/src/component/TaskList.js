@@ -84,17 +84,6 @@ const TaskList = () => {
             </button>
           </div>
         ))}
-        {/* <div className="add-card">
-          <button
-            style={{
-              backgroundColor: "transparent",
-              border: "none",
-              fontSize: "13px",
-            }}
-          >
-            <b>+ Add New Task</b>
-          </button>
-        </div> */}
       </div>
     </>
   );
