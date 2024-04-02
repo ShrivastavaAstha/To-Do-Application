@@ -18,9 +18,10 @@ This is a simple To-Do application built with ReactJS and Redux. It allows users
 
     bash
     cd To-Do-Application
+    cd frontend
     
 
-3. Install dependencies:
+4. Install dependencies:
 
     bash
     npm install
