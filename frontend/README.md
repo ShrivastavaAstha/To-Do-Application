@@ -17,7 +17,7 @@ This is a simple To-Do application built with ReactJS and Redux. It allows users
 2. Navigate to the project directory:
 
     bash
-    cd To-Do-Application
+    cd To-Do-Application<br/>
     cd frontend
     
 
