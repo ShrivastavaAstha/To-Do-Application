@@ -4,7 +4,7 @@ import TaskList from "./component/TaskList";
 import { Provider } from "react-redux";
 import store from "./component/Store";
 import "./App.css";
-function App() {
+const App = () => {
   const [isAddingTask, setIsAddingTask] = useState(false);
 
   const handleAddTaskClick = () => {
@@ -37,6 +37,6 @@ function App() {
       </div>
     </Provider>
   );
-}
+};
 
 export default App;

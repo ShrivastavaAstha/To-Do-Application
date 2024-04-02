@@ -14,6 +14,7 @@ const TaskInput = () => {
       setTitle("");
       setDate("");
       setText("");
+      alert("Task Saved Successfully!");
     }
   };
 
@@ -34,7 +35,7 @@ const TaskInput = () => {
   };
 
   return (
-    <div>
+    <div className="task-input">
       <input
         type="text"
         value={title}
@@ -57,9 +58,14 @@ const TaskInput = () => {
         placeholder="Task Description"
       />
       <br />
+      <br />
       <button
         onClick={handleAddTask}
-        style={{ backgroundColor: "green", color: "white" }}
+        style={{
+          backgroundColor: "green",
+          border: "none",
+        }}
+        className="btn"
       >
         Add Task
       </button>
