@@ -1,0 +1,56 @@
+body{
+  background-color:
+ #f9f9f9;
+}
+.App{
+  border-radius: 8px;
+  padding: 30px;
+  width: auto;
+  min-height:85vh;
+  margin:20px;
+  background-color: #f3fdfd;
+  border: 2px solid rgb(222, 247, 233);
+  box-shadow: 0 4px 8px #ccc;
+ 
+}
+h1{
+  text-align: center;
+ font-weight: 450;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-card {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  background-color: #f9f9f9;
+  border: 2px solid rgb(222, 247, 233);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: black;
+  position: relative;
+}
+.add-card{
+  margin: 10px;
+  border-radius: 8px;
+  width: 220px;
+  height:200px;
+  background-color: #f9f9f9;
+  border: 2px solid rgb(222, 247, 233);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  border-radius: 14px;
+  padding: 4px 16px;
+  cursor: pointer;
+  color:white;
+}
